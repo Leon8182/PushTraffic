@@ -348,7 +348,7 @@ input[type=submit]:hover,
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 111000;
     background-color: var(--navbar-bg);
     padding-left: 20px;
     padding-right: 20px;
@@ -438,6 +438,8 @@ input[type=submit]:hover,
     color: #00d1cd;
 }
 
+
+
 @media screen and (min-width: 820px) {
     #nav-main {
         position: static;
@@ -471,34 +473,21 @@ input[type=submit]:hover,
 
     #nav-main .sub-menu {
         position: absolute;
-        top: 100%;
+        top: 80%;
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
         width: 200px;
         padding: 0.5em;
-        background-color: var(--secondary);
-        border-radius: 12px;
+        background-color: white;
+       
         opacity: 0;
         pointer-events: none;
         -webkit-transition: opacity 150ms ease-in-out;
         transition: opacity 150ms ease-in-out;
     }
 
-    /* Triangle Generator => https://codepen.io/yukulele/pen/AgzXdJ */
-    #nav-main .sub-menu:before {
-        content: "";
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 10px 16px 10px;
-        border-color: transparent transparent var(--base-bg) transparent;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(-100%);
-        transform: translateX(-50%) translateY(-100%);
-    }
+   
 }
 
 
@@ -843,6 +832,10 @@ input[type=submit]:hover,
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+#footer-page .current-menu-item > a {
+    color: #00d1cd;
 }
 
 #footer-page a {
