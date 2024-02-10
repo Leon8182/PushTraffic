@@ -11,6 +11,7 @@
         <?php
         the_category(' | ');
         ?>
+        <?php the_date('');?>
 
         <?php
         //Gibt das Beitragsbild aus
