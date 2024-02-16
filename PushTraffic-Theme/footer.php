@@ -35,10 +35,8 @@
 
     </div>
 </footer>
-<div id="to-top">
-    <?php _e('Top', 'wifi'); ?>
-</div>
-<!-- <script src="assets/js/scripts.js"></script> -->
+
+
 <?php
 wp_footer();
 ?>
