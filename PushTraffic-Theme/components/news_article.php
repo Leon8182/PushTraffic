@@ -11,11 +11,11 @@
         <?php
         the_category(' | ');
         ?>
-        <?php the_date('');?>
+       
 
         <?php
-        //Gibt das Beitragsbild aus
-        // the_post_thumbnail();
+        
+         the_post_thumbnail();
         ?>
     </div>
 </article>
