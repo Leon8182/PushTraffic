@@ -72,7 +72,7 @@ body {
     padding-top: 60px;
     background: var(--navbar-bg) fixed;
     color: var(--base);
-    font-family: "montserrat-regular - latin", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
     overflow-x: hidden;
 }
@@ -100,11 +100,13 @@ h1 {
     line-height: 1;
     margin-top: 2em;
     margin-left: 20px;
+    
 }
 
 h2 {
     font-size: clamp(1.53em, 4vw, 40px);
     line-height: 1.1;
+  
 }
 
 h3 {
@@ -174,8 +176,8 @@ a:active {
 
 @media screen and (min-width: 768px) {
     .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .alignwide{
