@@ -736,8 +736,8 @@ input[type=submit]:hover,
 .meta img {
     max-width: 300px;
     display: flex;
-    margin-bottom: 40px;
-    margin-left: -180px;
+    
+    
 }
 
 
@@ -771,7 +771,7 @@ input[type=submit]:hover,
 
 .post .meta > *,
 .single-post .meta > * {
-    display: inline-block;
+   
     font-size: 0.85em;
 }
 
@@ -1160,3 +1160,26 @@ Backend-Styling
 .has-hugo-background-color{
     background-color: #333;
 }
+
+
+
+
+.typewriter {
+    
+    overflow: hidden;
+    border-right: .15em solid var(--base-bg);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--base-bg) }
+  }
