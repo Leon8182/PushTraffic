@@ -1,14 +1,12 @@
 <footer id="footer-page" class="container columns">
     
-<!--
-<ul class="social-links column">
+
 
         <?php
         dynamic_sidebar('sidebar-footer');
         ?>
 
-    </ul>
--->
+ 
 
 
 

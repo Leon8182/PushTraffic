@@ -1,5 +1,5 @@
 <?php
-//Widgetsbereich einbinden
+
 add_action('widgets_init', function () {
 	register_sidebar(
 		array(

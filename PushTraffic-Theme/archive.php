@@ -24,15 +24,7 @@ get_header();
     ?>
 
     <?php
-    // Standard WP Schleife
-    // if(have_posts()){
-    //     while(have_posts()){
-    //         the_post();
-    //         //Eigener Content
-    //         the_title();
     
-    //     }
-    // }
     ?>
 
     <?php

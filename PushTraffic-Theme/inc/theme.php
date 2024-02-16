@@ -1,10 +1,10 @@
 <?php
 add_action('after_setup_theme', function () {
 
-    //Title-Tag aktivieren
+    
     add_theme_support('title-tag');
 
-    //Aktivierung der Beitragsbilder
+    
     add_theme_support('post-thumbnails');
 
     add_theme_support(
@@ -20,21 +20,20 @@ add_action('after_setup_theme', function () {
         )
     );
 
-    //Bildgröße hinzufügen
+    
     add_image_size('news', 700, 200, array('center', 'center'));
 
 
-    //Textdatei für Übersetzungen laden
+  
     load_textdomain('wifi', get_template_directory() . '/assets/languages');
 
-    //Custom Logo
+
     add_theme_support(
         'custom-logo',
         array(
             'height' => 60,
             'width' => 100,
 
-            /*Bei SVG notwendig, beide Werte auf true*/
             'flex-height' => true,
             'flex-width' => true
         )
@@ -48,23 +47,22 @@ add_action('after_setup_theme', function () {
         )
     );
 
-    // Responsive Embeds (ZB. YouTube Videos, Iframes) erlauben
+
     add_theme_support('responsive-embeds');
 
-    // Theme für Gutenberg optimiert - Lade default Block styles
+  
     add_theme_support('wp-block-styles');
 
-    //Backend-Styling
+
     add_theme_support('editor-styles');
     add_editor_style('assets/css/style-editor.css');
    
   
 
-    //Gradients ausblenden
+
     add_theme_support('disable-custom-gradients');
     add_theme_support('editor-gradient-presets');
 
-    //Farben ausblenden / Eingrenzen
     add_theme_support('disable-custom-colors');
 
     add_theme_support(
@@ -93,7 +91,7 @@ add_action('after_setup_theme', function () {
         )
     );
 
-    //Schriftgrößen eingrenzen
+
     add_theme_support('disable-custom-font-sizes');
 
     add_theme_support(
@@ -112,10 +110,10 @@ add_action('after_setup_theme', function () {
         )
     );
 
-    //Ermöglicht Margin, Padding im Gutenberg
+
     add_theme_support('appearance-tools');
 
-    // aktiviere wide & fullwidth Layouts
+
     add_theme_support('align-wide');
 
 });
