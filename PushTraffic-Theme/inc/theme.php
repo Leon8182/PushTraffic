@@ -57,7 +57,8 @@ add_action('after_setup_theme', function () {
     //Backend-Styling
     add_theme_support('editor-styles');
     add_editor_style('assets/css/style-editor.css');
-    add_editor_style('assets/css/icons.css');
+   
+  
 
     //Gradients ausblenden
     add_theme_support('disable-custom-gradients');
